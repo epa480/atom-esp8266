@@ -21,9 +21,9 @@ Em alguns sistemas operacionais (geralmente no Linux e MacOS), são necessários
 Quando o sistema operacional (Linux e MacOS) reconhece o dispositivo e a porta porém ocorre erro de Permissão da Porta Serial
 
 Digite o seguinte comando:
-'''
+```
 ls -l /dev/ttyACM*
-'''
+```
 ou 
 
 ls -l /dev/ttyUSB*
