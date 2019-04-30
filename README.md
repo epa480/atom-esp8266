@@ -29,10 +29,11 @@ Será retornado uma resposta semelhante ao segiunte trecho de código abaixo.
 ```
 crw-rw---- 1 root dialout 188, 0 5 apr 23.01 ttyACM0
 ```
-Now we just need to add our user to the group:
+Precisamos adicionar seu usuário ao grupo:
 ```
 sudo usermod -a -G dialout <username> 
 ```
+Por fim, basta fazer o logoff e acessar novamente.
 
 ## 2. Primeiros Passos com Micropython
 
