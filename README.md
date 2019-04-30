@@ -10,7 +10,7 @@ Para a utilização dos microcontroladores com micropython, é necessário a ins
   - Atom editor com o plugun Pymakr; e/ou
   - Visual Studio Code com o plugin Pymakr.
 
-Em alguns sistemas operacionais (geralmente no Linux e MacOS), são necessários a instalação de alguns pacotes/configurações para que os dispositivos ESP8266, LoPy4, FiPy, etc. possam funcionar corretamente.
+Em alguns sistemas operacionais (geralmente no Linux e MacOS), são necessários a instalação de alguns pacotes/configurações para que os dispositivos ESP8266, LoPy4, FiPy, etc. possam funcionar corretamente. Solução encontrada em [Arduino](https://www.arduino.cc/en/guide/linux).
 
 Quando o sistema operacional (Linux e MacOS) reconhece o dispositivo e a porta porém ocorre erro de Permissão da Porta Serial
 
