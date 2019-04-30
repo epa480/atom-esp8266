@@ -39,6 +39,15 @@ Outro problema que pode ser encontrado (geralmente com o ESP8266) nos sistemas o
 
 ## 2. Primeiros Passos com Micropython
 
+A maneira mais fácil de interagir com o hardware Micropython é conectar um cabo USB e usar o prompt interativo (REPL). Algumas ferramentas de softwares compatíveis com USB REPL com hardware Micropython:
+  - screen (Linux/MacOS);
+  - PuTTY (ou similar) no Windows;
+  - rshell e ferramenta de gerenciamento de arquivos (Linux/MacOS/Windows);
+  - Atom com plugin PyMakr (Linux/MacOS/Windows);
+  - Visual Studio Code com plugin PyMakr (Linux/MacOS/Windows).
+
+
+
 
 ## 3.  
 
