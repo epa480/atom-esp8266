@@ -8,7 +8,7 @@ Podemos utilizar microcontroladores com micropython de utilizando vários progra
   - Atom editor com o plugin PyMakr; e 
   - Visual Studio Code com o plugin PyMakr.
   
-1. Pré-Requisitos
+##1. Pré-Requisitos
 
 
 
