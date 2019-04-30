@@ -46,8 +46,19 @@ A maneira mais fácil de interagir com o hardware Micropython é conectar um cab
   - Atom com plugin PyMakr (Linux/MacOS/Windows);
   - Visual Studio Code com plugin PyMakr (Linux/MacOS/Windows).
 
-
-
+Para verificar qual o nome da porta que o hardware Micropython estará usando, basta conectá-lo e digitar o seguinte comando.
+```
+ls /dev/tty*
+```
+Será listado um conjunto de portas, geralmente são usadas as portas ACM* e USB*. Para verificar se o dispositivo esta comunicando corretamente com o sistema operacional, basta utilizar o comando acima e substituir * pelo nome da porta. 
+```
+ls /dev/ttyACM0
+```
+ou 
+```
+ls /dev/ttyUSB0
+```
+Caso a linha de comando acima aparecer na cor verde, está tudo funcionando corretamente. Se o comando aparecer na com a cor  vermelha, o sistema operacional reconheceu a dispositovo porém  eles não estão se comunicando. Se ao desconecar o cabo USB e conectar novamente continuar 
 
 ## 3.  
 
