@@ -35,6 +35,8 @@ sudo usermod -a -G dialout <username>
 ```
 Por fim, basta fazer o logoff e acessar novamente.
 
+Outro problema que pode ser encontrado (geralmente com o ESP8266) nos sistemas operacionais que não reconhecem o(s) dispositivo(s). Para isso, basta instalar o driver [CH340](https://sparks.gogo.co.nz/ch340.html).
+
 ## 2. Primeiros Passos com Micropython
 
 
