@@ -25,7 +25,7 @@ ls -l /dev/ttyUSB*
 
 Ao utilizar LoPy4 e FiPy com as extension board v3, irá reconhecer como ACM*. Caso utilize a extension board v2 ou ESP8266 será reconhecido como USB*.
 
-Será retornado uma resposta semelhante ao segiunte trecho de código abaixo.
+Será retornado uma resposta semelhante ao seguinte trecho de código abaixo.
 ```
 crw-rw---- 1 root dialout 188, 0 5 apr 23.01 ttyACM0
 ```
