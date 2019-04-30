@@ -1,4 +1,4 @@
-# Micropyhon com IoT
+# Micropython com IoT
 
   
 ## 1. Pré-Requisitos
