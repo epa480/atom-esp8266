@@ -58,8 +58,45 @@ ou
 ```
 ls /dev/ttyUSB0
 ```
-Caso a linha de comando acima aparecer na cor verde, está tudo funcionando corretamente. Se o comando aparecer na com a cor  vermelha, o sistema operacional reconheceu a dispositovo porém  eles não estão se comunicando. Se ao desconecar o cabo USB e conectar novamente continuar 
 
-## 3.  
+## 3. Conectando o disposito no PC
+
+### 3.1. Via Terminal
+
+Apos seguir o passos anteriores e conectando o dispotivo no computador. Podemos executar o seguinte comando (utilizado no Linux).
+```
+rshell -p /dev/ttyUSB0 -b 115200
+```
+ou
+```
+rshell -p /dev/ttyUSB0 -b 115200 --buffer-size=30
+```
+Conseguimos conectar acessar o dispostivo. Para listar os arquivos que estao contidos no dispositivo, podemos utilizar seguinte comando.
+```
+ls -a  /pyboard/
+```
+Para copiar algum arquivo para o dispositivo, utilizamos o seguinte comando.
+```
+cp <diretorio do arquivo>/arquivo /pyboard/
+```
+Para deletar algum arquivo do dispositivo.
+```
+rm /pyboard/<diretorio do arquivo dentro do dispositivo>/arquivo_para deletar
+```
+
+Os passos acima sao utilizados quando se deseja escrever algum script e executa-lo. Podemos tambem utilizar o micropython sem a necessidade de copiar arquivos, bastando utilizar o micropython. Para isso basta digitar o seguinte comando no terminal.
+```
+repl
+```
+
+Agora estamos dentro do Micropython, e podemos utilizar o interpretador do python. Como primeiro exemplo, podemos executar o seguinte comando.
+```
+>>> 1 + 1
+```
+Sera retornado o valor da soma.
+```
+>>> 1 + 1
+>>> 2
+```
 
 
